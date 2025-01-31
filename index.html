@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- google fonts -->
+    <!-- sora font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- adlam display font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .sora {
+        font-family: "Sora", serif;
+      }
+      .adlam-display {
+        font-family: "ADLaM Display", serif;
+      }
+    </style>
+    <!-- tailwind css cdn script -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!-- daisy ui cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <!-- body part -->
+  <body class="sora">
+    <!-- header part -->
+    <header>
+      <!-- nav bar part -->
+      <nav>
+        <div
+          class="bg-[#FFF9F4] p-2 sm:p-0 border-y-[.5px] border-[#111111] lg:border-none sm:py-7"
+        >
+          <div class="w-19/20 mx-auto flex justify-between items-center">
+            <!-- navbar-left -->
+            <div class="flex items-center gap-x-3">
+              <img src="./c1-assets/logo-header.png" alt="" />
+              <span class="text-2xl font-normal text-[#111111] hidden sm:flex"
+                >Browse<span class="text-[#FFDC26]">4</span>Pets</span
+              >
+            </div>
+
+            <!-- navbar-middle -->
+            <div>
+              <div class="dropdown dropdown-end lg:hidden">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="dropdown-content menu bg-base-100 rounded-box z-[1] w-32 p-2 shadow sm:flex-row"
+                >
+                  <li><a>Find a pet</a></li>
+                  <li><a>Breeds</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                  <li><a class="font-normal text-xl">Find a pet</a></li>
+                  <li><a class="font-normal text-xl">Breeds</a></li>
+                  <li><a class="font-normal text-xl">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- navbar-right -->
+            <div class="lg:flex gap-x-4 hidden items-center">
+              <img src="./c1-assets/bell.png" alt="" />
+              <img src="./c1-assets/search.png" alt="" />
+              <button
+                class="btn border-[1px] border-[#FFDC26] bg-transparent text-xl px-7 font-normal text-[#111111]"
+              >
+                Login
+              </button>
+              <button
+                class="btn border-[1px] border-[#FFDC26] bg-[#FFDC26] px-7 text-xl font-normal text-[#111111]"
+              >
+                Register
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero/banner section -->
+
+      <section class="mt-20">
+        <div class="w-11/12 mx-auto flex justify-center">
+          <div>
+            <div class="relative flex flex-col items-start w-9/12 gap-y-5 z-10">
+              <h1 class="adlam-display sm:text-6xl text-3xl mb-5">
+                Pamper Your Pet, <br />
+                Because They Deserve <br />
+                the Best
+              </h1>
+              <p class="text-base">
+                Discover a world of treats, toys, and essentials handpicked for
+                <br />
+                your furry friends. Shop now and make tails wag with joy!
+              </p>
+              <button
+                class="btn border-[1px] border-[#FFDC26] bg-[#FFDC26] px-7 text-xl font-normal sora text-[#111111] relative z-20"
+              >
+                Find a pet
+              </button>
+            </div>
+            <img
+              class="-top-20 md:-top-40 lg:-top-80 relative -z-10"
+              src="./c1-assets/cat-big.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- main part -->
+    <main></main>
+
+    <!-- footer part -->
+    <footer></footer>
+  </body>
+</html>
