@@ -28,8 +28,7 @@
         font-family: "ADLaM Display", serif;
       }
     </style>
-    <!-- tailwind css cdn script -->
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    
 
     <!-- daisy ui cdn -->
     <link
@@ -47,9 +46,9 @@
       <!-- nav bar part -->
       <nav>
         <div
-          class="bg-[#FFF9F4] p-2 sm:p-0 border-y-[.5px] border-[#111111] lg:border-none sm:py-7"
+          class=" w-full mx-auto bg-[#FFF9F4]  sm:px-0 border-y-[.5px] border-[#111111] lg:border-none sm:py-7"
         >
-          <div class="w-19/20 mx-auto flex justify-between items-center">
+          <div class="px-5 container mx-auto flex justify-between items-center">
             <!-- navbar-left -->
             <div class="flex items-center gap-x-3">
               <img src="./c1-assets/logo-header.png" alt="" />
@@ -79,7 +78,7 @@
                 </div>
                 <ul
                   tabindex="0"
-                  class="dropdown-content menu bg-base-100 rounded-box z-[1] w-32 p-2 shadow sm:flex-row"
+                  class="dropdown-content menu bg-base-100 rounded-box z-20 w-32 p-2 shadow sm:flex-row"
                 >
                   <li><a>Find a pet</a></li>
                   <li><a>Breeds</a></li>
@@ -116,13 +115,13 @@
 
       <!-- hero/banner section -->
 
-      <section class="mt-20">
-        <div class="w-11/12 mx-auto flex justify-center">
-          <div>
-            <div class="relative flex flex-col items-start w-9/12 gap-y-5 z-10">
-              <h1 class="adlam-display sm:text-6xl text-3xl mb-5">
-                Pamper Your Pet, <br />
-                Because They Deserve <br />
+      <section class="mt-20 mb-20">
+        <div class="container mx-auto flex justify-center">
+          <div class="w-11/12 mx-auto">
+            <div class="relative flex flex-col items-start  w-9/12 gap-y-5 z-10  ">
+              <h1 class="adlam-display sm:text-6xl text-3xl text-wrap">
+                Pamper Your Pet, 
+                Because They Deserve 
                 the Best
               </h1>
               <p class="text-base">
@@ -147,7 +146,92 @@
     </header>
 
     <!-- main part -->
-    <main></main>
+    <main>
+
+<!-- browse by categories  section-->
+ <section>
+<div class="container mx-auto mb-28 flex flex-col justify-start lg:-mt-60 md:-mt-40 -mt-20 -z-30">
+  <h1 class="adlam-display text-[#111111] sm:text-4xl text-2xl mb-10 pl-7 sm:pl-20">Browse By Categories</h1>
+<div class=" w-11/12 grid lg:grid-cols-6 grid-cols-2 md:grid-cols-3  mx-auto gap-x-3 gap-y-3">
+
+ 
+    <!-- card 1 -->
+    <div class="bg-[#F9DF8A] flex flex-col justify-center items-center h-52 sm:h-64  rounded-xl gap-y-4">
+      
+    <div class="avatar">
+      <div class="ring-primary ring-offset-base-100 bg-[#FFFFFF]  rounded-full p-5 ">
+        <img class="" src="./c1-assets/dog-cartoon.png" />
+      </div>
+      
+    </div>
+    <h1 class="adlam-display text-xl font-normal text-[#000000]">Dog</h1>
+      <span class="sora text-sm">3 items</span>
+  </div>
+  <!-- card 2 -->
+  <div class="bg-[#F9DF8A] flex flex-col justify-center items-center h-52 sm:h-64  rounded-xl gap-y-4">
+      
+    <div class="avatar">
+      <div class="ring-primary ring-offset-base-100 bg-[#FFFFFF]  rounded-full p-5 ">
+        <img class="" src="./c1-assets/fish-cartoon.png" />
+      </div>
+      
+    </div>
+    <h1 class="adlam-display text-xl font-normal text-[#000000]">Dog</h1>
+      <span class="sora text-sm">3 items</span>
+  </div>
+  <!-- card 3 -->
+  <div class="bg-[#F9DF8A] flex flex-col justify-center items-center h-52 sm:h-64  rounded-xl gap-y-4">
+      
+    <div class="avatar">
+      <div class="ring-primary ring-offset-base-100 bg-[#FFFFFF]  rounded-full p-5 ">
+        <img class="" src="./c1-assets/cat-cartoon.png" />
+      </div>
+      
+    </div>
+    <h1 class="adlam-display text-xl font-normal text-[#000000]">Dog</h1>
+      <span class="sora text-sm">3 items</span>
+  </div>
+  <!-- card 4 -->
+  <div class="bg-[#F9DF8A] flex flex-col justify-center items-center h-52 sm:h-64  rounded-xl gap-y-4">
+      
+    <div class="avatar">
+      <div class="ring-primary ring-offset-base-100 bg-[#FFFFFF]  rounded-full p-5 ">
+        <img class="" src="./c1-assets/bird-cartoon.png" />
+      </div>
+      
+    </div>
+    <h1 class="adlam-display text-xl font-normal text-[#000000]">Dog</h1>
+      <span class="sora text-sm">3 items</span>
+  </div>
+  <!-- card 5 -->
+  <div class="bg-[#F9DF8A] flex flex-col justify-center items-center h-52 sm:h-64  rounded-xl gap-y-4">
+      
+    <div class="avatar">
+      <div class="ring-primary ring-offset-base-100 bg-[#FFFFFF]  rounded-full p-5 ">
+        <img class="" src="./c1-assets/mouse-cartoon.png" />
+      </div>
+      
+    </div>
+    <h1 class="adlam-display text-xl font-normal text-[#000000]">Dog</h1>
+      <span class="sora text-sm">3 items</span>
+  </div>
+  <!-- card 6 -->
+  <div class="bg-[#F9DF8A] flex flex-col justify-center items-center h-52 sm:h-64  rounded-xl gap-y-4">
+      
+    <div class="avatar">
+      <div class="ring-primary ring-offset-base-100 bg-[#FFFFFF]  rounded-full p-5 ">
+        <img class="" src="./c1-assets/rabbit-cartoon.png" />
+      </div>
+      
+    </div>
+    <h1 class="adlam-display text-xl font-normal text-[#000000]">Dog</h1>
+      <span class="sora text-sm">3 items</span>
+  </div>
+</div>
+</div>
+</section>
+
+    </main>
 
     <!-- footer part -->
     <footer></footer>
